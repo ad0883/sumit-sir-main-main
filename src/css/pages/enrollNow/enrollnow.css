@@ -1,0 +1,111 @@
+.outer {
+  background-color: #c3baf6;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  margin: 0;
+}
+
+.registration-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin-top: -120px;
+}
+
+.registration-form h2 {
+  color: #150f48;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registration-form p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registration-form label,
+legend {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.interesed-course label {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.registration-form input,
+.registration-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+  background: -webkit-linear-gradient(90deg, #0b0433 0%, #0e0741 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.registration-form button:hover {
+  background: -webkit-linear-gradient(90deg, #a898ff 0%, #5a4bcd 100%);
+}
+
+.required-field {
+  color: red;
+}
+
+/* Success Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  /* Ensure modal is on top */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  max-width: 90%;
+}
+
+.modal-content h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #f6673a;
+}
+
+.modal-content p {
+  font-size: 16px;
+  color: #333;
+}

@@ -1,0 +1,199 @@
+{
+    "course_name": "MERN Stack",
+    "modules": [
+        {
+            "module_name": "HTML - Web Mastery",
+            "sub_modules": [
+                "Introduction to HTML",
+                "Semantic HTML",
+                "HTML Forms",
+                "HTML5 APIs",
+                "Accessibility Standards",
+                "Web Performance",
+                "SEO Best Practices",
+                "Cross-Browser Compatibility",
+                "Responsive Images"
+            ]
+        },
+        {
+            "module_name": "CSS - Styling Expertise",
+            "sub_modules": [
+                "Introduction to CSS",
+                "Selectors and Specificity",
+                "Box Model and Layout",
+                "Flexbox and Grid",
+                "Responsive Design",
+                "CSS Transitions and Animations",
+                "CSS Preprocessors",
+                "CSS Frameworks",
+                "Advanced Selectors",
+                "CSS Custom Properties"
+            ]
+        },
+        {
+            "module_name": "JavaScript - Scripting Proficiency",
+            "sub_modules": [
+                "Introduction to JavaScript",
+                "Variables and Data Types",
+                "Functions and Scope",
+                "DOM Manipulation",
+                "Asynchronous Programming",
+                "ES6+ Features",
+                "Error Handling",
+                "JavaScript Design Patterns",
+                "Functional Programming",
+                "Module Systems"
+            ]
+        },
+        {
+            "module_name": "React.js - Component Development",
+            "sub_modules": [
+                "Introduction to React.js",
+                "Components and Props",
+                "State and Lifecycle",
+                "React Hooks",
+                "Forms and Validation",
+                "React Router",
+                "Redux State Management",
+                "Context API",
+                "Server-side Rendering",
+                "Testing React Applications"
+            ]
+        },
+        {
+            "module_name": "MongoDB - Data Management",
+            "sub_modules": [
+                "MongoDB Integration",
+                "ORMs and ODMs",
+                "Data Modeling",
+                "Transactional Operations",
+                "Real-time Data Integration",
+                "Database Performance Tuning",
+                "Data Encryption",
+                "Database Caching",
+                "Full-text Search",
+                "Data Migration"
+            ]
+        },
+        {
+            "module_name": "Express.js - Backend Development",
+            "sub_modules": [
+                "Introduction to Express.js",
+                "Routing",
+                "Middleware",
+                "Template Engines",
+                "Error Handling",
+                "Authentication with Passport.js",
+                "RESTful API Design",
+                "WebSocket Integration",
+                "Security Best Practices",
+                "Serverless Applications"
+            ]
+        },
+        {
+            "module_name": "Node.js - Server-side Powerhouse",
+            "sub_modules": [
+                "Introduction to Node.js",
+                "Event Loop",
+                "File System and Streams",
+                "RESTful APIs",
+                "Authentication and Authorization",
+                "Streams and Buffers",
+                "Cluster Module",
+                "Microservices",
+                "Performance Optimization",
+                "Command Line Tools"
+            ]
+        },
+        {
+            "module_name": "Authentication and Authorization - Security",
+            "sub_modules": [
+                "Session-based Authentication",
+                "JSON Web Tokens (JWT)",
+                "OAuth 2.0",
+                "Role-based Access Control",
+                "Multi-factor Authentication",
+                "Single Sign-On",
+                "Security Best Practices",
+                "Two-Factor Authentication",
+                "OAuth Providers Integration",
+                "Passwordless Authentication"
+            ]
+        },
+        {
+            "module_name": "Database Integration - MongoDB",
+            "sub_modules": [
+                "MongoDB Integration",
+                "ORMs and ODMs",
+                "Data Modeling",
+                "Transactional Operations",
+                "Real-time Data Integration",
+                "Database Performance Tuning",
+                "Data Encryption",
+                "Database Caching",
+                "Full-text Search",
+                "Data Migration"
+            ]
+        },
+        {
+            "module_name": "Deployment and Scaling - Cloud",
+            "sub_modules": [
+                "Deployment",
+                "Containerization (Docker, Kubernetes)",
+                "Load Balancing",
+                "Scaling",
+                "Monitoring and Logging",
+                "CI/CD",
+                "Auto-scaling",
+                "High Availability",
+                "Serverless Deployment",
+                "Infrastructure as Code (IaC)"
+            ]
+        },
+        {
+            "module_name": "Testing and Debugging - Development",
+            "sub_modules": [
+                "Unit Testing",
+                "Integration Testing",
+                "End-to-End Testing",
+                "Performance Testing",
+                "Security Testing",
+                "Debugging",
+                "Error Handling and Logging",
+                "Test-Driven Development (TDD)",
+                "Code Coverage Analysis",
+                "Mocking and Stubbing"
+            ]
+        },
+        {
+            "module_name": "Advanced Web Development - Technologies",
+            "sub_modules": [
+                "GraphQL with MERN Stack",
+                "Serverless Architecture",
+                "Microservices",
+                "Websockets",
+                "Full-stack TypeScript",
+                "AI and ML Integration",
+                "Blockchain Integration",
+                "IoT Applications",
+                "Real-time Analytics",
+                "Ethical Hacking and Security"
+            ]
+        },
+        {
+            "module_name": "Project Development - Implementation",
+            "sub_modules": [
+                "Project Planning",
+                "Building RESTful APIs",
+                "Single Page Application (SPA)",
+                "Authentication Setup",
+                "Real-time Features",
+                "UI/UX Design",
+                "Performance Optimization",
+                "Project Documentation",
+                "Version Control",
+                "Project Deployment"
+            ]
+        }
+    ]
+}

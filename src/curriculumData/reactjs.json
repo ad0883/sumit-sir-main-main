@@ -1,0 +1,64 @@
+{
+    "course_name": "MERN Stack",
+    "modules": [
+        {
+            "module_name": "HTML - Web Mastery",
+            "sub_modules": [
+                "Introduction to HTML",
+                "Semantic HTML",
+                "HTML Forms",
+                "HTML5 APIs",
+                "Accessibility Standards",
+                "Web Performance",
+                "SEO Best Practices",
+                "Cross-Browser Compatibility",
+                "Responsive Images"
+            ]
+        },
+        {
+            "module_name": "CSS - Styling Expertise",
+            "sub_modules": [
+                "Introduction to CSS",
+                "Selectors and Specificity",
+                "Box Model and Layout",
+                "Flexbox and Grid",
+                "Responsive Design",
+                "CSS Transitions and Animations",
+                "CSS Preprocessors",
+                "CSS Frameworks",
+                "Advanced Selectors",
+                "CSS Custom Properties"
+            ]
+        },
+        {
+            "module_name": "JavaScript - Scripting Proficiency",
+            "sub_modules": [
+                "Introduction to JavaScript",
+                "Variables and Data Types",
+                "Functions and Scope",
+                "DOM Manipulation",
+                "Asynchronous Programming",
+                "ES6+ Features",
+                "Error Handling",
+                "JavaScript Design Patterns",
+                "Functional Programming",
+                "Module Systems"
+            ]
+        },
+        {
+            "module_name": "React.js - Component Development",
+            "sub_modules": [
+                "Introduction to React.js",
+                "Components and Props",
+                "State and Lifecycle",
+                "React Hooks",
+                "Forms and Validation",
+                "React Router",
+                "Redux State Management",
+                "Context API",
+                "Server-side Rendering",
+                "Testing React Applications"
+            ]
+        }
+    ]
+}

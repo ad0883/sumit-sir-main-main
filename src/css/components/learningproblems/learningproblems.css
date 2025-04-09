@@ -1,0 +1,139 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    
+    transform: translateY(20px);
+    animation-delay: 4s;
+  }
+  to {
+    opacity: 01;
+    transform: translateY(0);
+    animation-delay: 4s;
+
+  }
+}
+
+.learning-problems-container {
+  background-color: #282844;
+  color: #333333;
+  padding: 2rem;
+  text-align: center;
+  opacity: 0; /* Hide the section initially */
+  transition: opacity 0.5s ease;
+}
+
+.learning-problems-container.animate {
+  opacity: 1; /* Make the section visible when animation starts */
+}
+
+.learning-problems-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.learning-problems-container h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.custom {
+  color: #5a4bcd;
+}
+
+.problems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.problem {
+  background-color: #c3baf6;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  opacity: 0; /* Hide until visible in viewport */
+  animation: fadeInUp 0.8s ease-in-out forwards;
+  animation-delay: calc(0.1s * var(--order));
+}
+
+.problem:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.problem:hover .emoji {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.emoji {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.highlight {
+  color: #5a4bcd;
+}
+
+.solutions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.solution {
+  background-color: #5a4bcd;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: left;
+  width: calc(25% - 2rem);
+  min-width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  color: #ffffff;
+  opacity: 0; /* Hide until visible in viewport */
+  animation: fadeInUp 0.8s ease-in-out forwards;
+  animation-delay: calc(0.2s * var(--order));
+}
+
+.solution:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.solution:hover .icon {
+  color: #c3baf6;
+  transform: rotate(10deg) scale(1.1);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .solution {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .solution {
+    width: calc(100% - 2rem);
+  }
+}

@@ -1,0 +1,101 @@
+{
+    "course_name": "Programming Fundamentals",
+    "modules": [
+        {
+            "module_name": "Introduction & Prerequisites",
+            "sub_modules": [
+                "Flowcharts",
+                "Variables and Data Types",
+                "Conditional Statements",
+                "How to Approach a Problem",
+                "Frequent Errors",
+                "Basic Syntax and Structure of a Program",
+                "Introduction to Integrated Development Environments (IDEs)"
+            ]
+        },
+        {
+            "module_name": "Loops & Functions",
+            "sub_modules": [
+                "For Loop, While Loop, and Do-While Loop",
+                "Problems on Patterns",
+                "Control Statements: Break and Continue",
+                "Switch Case",
+                "Functions",
+                "Introduction to Recursive Functions",
+                "Scope and Lifetime of Variables"
+            ]
+        },
+        {
+            "module_name": "Arrays/Lists",
+            "sub_modules": [
+                "Introduction to Arrays/Lists",
+                "Problems on 1D Arrays/Lists",
+                "Introduction to 2D Arrays/Lists",
+                "Problems on 2D Arrays/Lists",
+                "Multidimensional Arrays",
+                "Array/List Operations (Insert, Delete, Search)"
+            ]
+        },
+        {
+            "module_name": "Searching & Sorting",
+            "sub_modules": [
+                "Introduction to Searching Algorithms",
+                "Linear Search",
+                "Binary Search",
+                "Introduction to Sorting Algorithms",
+                "Bubble Sort",
+                "Insertion Sort",
+                "Selection Sort"
+            ]
+        },
+        {
+            "module_name": "Strings/2D Lists",
+            "sub_modules": [
+                "Introduction to Strings/Lists",
+                "Problems on 1D Strings/Lists",
+                "Introduction to 2D Strings/Lists",
+                "Problems on 2D Strings/Lists",
+                "String Manipulation Functions"
+            ]
+        },
+        {
+            "module_name": "Complexity Analysis - Time and Space",
+            "sub_modules": [
+                "Need for Analysis",
+                "Annotations",
+                "Other Methods to Find Complexity",
+                "How We Trade Space with Time and Vice Versa",
+                "Big O, Big Theta, and Big Omega Notations",
+                "Analyzing Recursive Algorithms"
+            ]
+        },
+        {
+            "module_name": "Recursion",
+            "sub_modules": [
+                "How Complexity Changes in Recursive Approach",
+                "Code Readability",
+                "Recursion Tree",
+                "Reading Stack Trace",
+                "Limitations",
+                "Famous Problems on Recursion",
+                "Keypad Problem",
+                "Merge Sort and Quick Sort",
+                "Backtracking Algorithms"
+            ]
+        },
+        {
+            "module_name": "Object Oriented Programming",
+            "sub_modules": [
+                "Introduction to OOPS",
+                "Classes, Objects, and Access Modifiers",
+                "Constructors, Static and This Keyword",
+                "Inheritance and Super Keyword",
+                "Polymorphism: Compile-time & Run-time",
+                "Constructor Chaining and Final Keyword",
+                "Abstract Classes and Interfaces",
+                "Encapsulation and Data Hiding",
+                "Exception Handling"
+            ]
+        }
+    ]
+}

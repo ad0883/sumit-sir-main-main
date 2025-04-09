@@ -1,0 +1,52 @@
+.experience-section {
+    padding: 50px;
+    text-align: left;
+}
+
+.experience-title {
+    font-size: 2em;
+    color: #6c757d;
+}
+
+
+
+.highlight {
+    font-weight: bold;
+    color: #5a4bcd;
+}
+
+.experience-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.experience-content h2 {
+    font-size: 2.20em;
+    color: black;
+}
+
+.experience-item {
+    flex: 1 1 350px;
+    margin: 20px;
+    border-left: 6px solid #6a1b9a;
+    padding-left: 20px;
+}
+
+.experience-item-custom {
+    flex: 1 1 350px;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.experience-heading {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.experience-description {
+    color: #6c757d;
+}

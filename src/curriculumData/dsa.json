@@ -1,0 +1,223 @@
+{
+    "course_name": "Data Structure and Algorithms",
+    "modules": [
+        {
+            "module_name": "Introduction & Prerequisites",
+            "sub_modules": [
+                "Flowcharts",
+                "Variables and Data Types",
+                "Conditional Statements",
+                "How to Approach a Problem",
+                "Frequent Errors",
+                "Basic Syntax and Structure of a Program",
+                "Introduction to Integrated Development Environments (IDEs)"
+            ]
+        },
+        {
+            "module_name": "Loops & Functions",
+            "sub_modules": [
+                "For Loop, While Loop, and Do-While Loop",
+                "Problems on Patterns",
+                "Control Statements: Break and Continue",
+                "Switch Case",
+                "Functions",
+                "Introduction to Recursive Functions",
+                "Scope and Lifetime of Variables"
+            ]
+        },
+        {
+            "module_name": "Arrays/Lists",
+            "sub_modules": [
+                "Introduction to Arrays/Lists",
+                "Problems on 1D Arrays/Lists",
+                "Introduction to 2D Arrays/Lists",
+                "Problems on 2D Arrays/Lists",
+                "Multidimensional Arrays",
+                "Array/List Operations (Insert, Delete, Search)"
+            ]
+        },
+        {
+            "module_name": "Searching & Sorting",
+            "sub_modules": [
+                "Introduction to Searching Algorithms",
+                "Linear Search",
+                "Binary Search",
+                "Introduction to Sorting Algorithms",
+                "Bubble Sort",
+                "Insertion Sort",
+                "Selection Sort"
+            ]
+        },
+        {
+            "module_name": "Strings/2D Lists",
+            "sub_modules": [
+                "Introduction to Strings/Lists",
+                "Problems on 1D Strings/Lists",
+                "Introduction to 2D Strings/Lists",
+                "Problems on 2D Strings/Lists",
+                "String Manipulation Functions"
+            ]
+        },
+        {
+            "module_name": "Complexity Analysis - Time and Space",
+            "sub_modules": [
+                "Need for Analysis",
+                "Annotations",
+                "Other Methods to Find Complexity",
+                "How We Trade Space with Time and Vice Versa",
+                "Big O, Big Theta, and Big Omega Notations",
+                "Analyzing Recursive Algorithms"
+            ]
+        },
+        {
+            "module_name": "Recursion",
+            "sub_modules": [
+                "How Complexity Changes in Recursive Approach",
+                "Code Readability",
+                "Recursion Tree",
+                "Reading Stack Trace",
+                "Limitations",
+                "Famous Problems on Recursion",
+                "Keypad Problem",
+                "Merge Sort and Quick Sort",
+                "Backtracking Algorithms"
+            ]
+        },
+        {
+            "module_name": "Object Oriented Programming",
+            "sub_modules": [
+                "Introduction to OOPS",
+                "Classes, Objects, and Access Modifiers",
+                "Constructors, Static and This Keyword",
+                "Inheritance and Super Keyword",
+                "Polymorphism: Compile-time & Run-time",
+                "Constructor Chaining and Final Keyword",
+                "Abstract Classes and Interfaces",
+                "Encapsulation and Data Hiding",
+                "Exception Handling"
+            ]
+        },
+        {
+          "module_name": "Backtracking",
+          "sub_modules": [
+            "When to use",
+            "difference and similarity in brute force and Backtracking algorithms",
+            "Time and Space complexity analysis",
+            "N-Queen - Approach, Code, variations",
+            "M Coloring problem",
+            "Rat in a Maze",
+            "Subset sum",
+            "Sudoku",
+            "Remove invalid parenthesis etc."
+          ]
+        },
+        {
+          "module_name": "Bit masking & Modulo Arithmetic",
+          "sub_modules": [
+            "Shift Operators",
+            "All bitwise Operators- AND, OR, NOT",
+            "Modulo"
+          ]
+        },
+        {
+           "module_name": "LinkedList",
+           "sub_modules": [
+            "Introduction to Linked Lists",
+            "Singly Linked List, Doubly Linked List, Circular Linked List",
+            "Operations: Insertion, Deletion, Reversal",
+            "Problems on Linked Lists"
+          ]
+        },
+        {
+            "module_name": "Stack & Queue",
+            "sub_modules": [
+                "Introduction to Stacks and Queues",
+                "Operations and Applications of Stacks",
+                "Operations and Applications of Queues",
+                "Problems on Stack and Queue"
+           ]
+         },
+        {
+            "module_name": "HashMap and HashSet",
+            "sub_modules": [
+                "Introduction to Hashing and HashMaps",
+                "Collisions: Chaining and Open Addressing",
+                "Applications of HashMap and HashSet",
+                "Problems involving Hashing"
+            ]
+        },
+        {
+            "module_name": "Priority Queue and Heaps",
+            "sub_modules": [
+                "Introduction to Priority Queues",
+                "Min Heap and Max Heap",
+                "Heap operations: Insertion, Deletion, Heapify",
+                "Applications of Priority Queue and Heaps",
+                "Problems on Priority Queue"
+            ]
+        },
+        {
+            "module_name": "Tree (Binary Tree, BST)",
+            "sub_modules": [
+                "Introduction to Trees and Binary Trees",
+                "Tree Traversals: Inorder, Preorder, Postorder",
+                "Binary Search Trees (BST)",
+                "Operations on BST: Insertion, Deletion, Searching",
+                "Problems on Binary Trees and BST"
+            ]
+        },
+        {
+          "module_name": "Dynamic Programming",
+          "sub_modules": [
+            "Basics- Need of DP",
+            "States",
+            "Tree",
+            "Recursive formula",
+            "DAG for DP",
+            "Mnemonization",
+            "Tabulation",
+            "Optimal substructure",
+            "Overlapping subproblems",
+            "Fibonacci problem",
+            "Gold Mine Problem",
+            "Subset sum",
+            "Subproblem",
+            "Coin Change Problem",
+            "LCS, LIS",
+            "01 Knapsack DP"
+          ]
+        },
+        {
+            "module_name": "Trie",
+            "sub_modules": [
+                "Introduction to Tries",
+                "Insertion, Deletion, Searching in Tries",
+                "Applications of Tries (Autocomplete, Dictionary Problems)" ,
+                "Problems on Tries"
+            ]
+        },
+        {
+          "module_name": "Graphs",
+          "sub_modules": [
+            "Intro",
+            "Terminologies",
+            "Implementation using Adjacency Matrix or List",
+            "BFS",
+            "DFS",
+            "has path",
+            "is connected",
+            "get path",
+            "Directed Weighted Graph",
+            "Detect Cycle in Directed",
+            "Undirected graph",
+            "Topological sorting",
+            "Longest paths",
+            "DAG",
+            "Prim’s algorithm",
+            "Kruskal’s algorithm",
+            "Dijkstra’s Algorithm",
+            "Bipartite graph and matching"
+          ]
+        }
+      ]
+  }

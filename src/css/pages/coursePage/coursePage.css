@@ -1,0 +1,193 @@
+.coursepage-outer-container {
+  margin-top: 82px; /* This should match the height of your navbar */
+  width: 100%;
+  position: relative;
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background: linear-gradient(90deg, #ffffff 50%, #f9f9f9 100%);
+  color: var(--primary-color);
+  border-radius: 110px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: #5a4bcd 6px solid;
+  margin: 12rem 5rem; /* Reduced top margin since we have margin-top on container */
+}
+
+.course-header-left {
+  max-width: 60%;
+}
+
+.course-header-left h2 {
+  font-size: 2.5rem;
+  color: #5a4bcd;
+  margin-left: 3rem;
+}
+
+.course-header-left .mentor {
+  font-size: 1.2rem;
+  color: #005eff;
+  margin: 01rem 0;
+  margin-left: 3rem;
+}
+
+.course-header-left .description {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  margin-left: 3rem;
+  color: #5e6974;
+}
+
+.course-header-left .price-section {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.course-header-left .current-price {
+  color: #5a4bcd;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+.course-header-left .original-price {
+  color: #adb5bd;
+  text-decoration: line-through;
+  margin-left: 1rem;
+}
+
+.course-header-right img {
+  width: 400px;
+  height: auto;
+  border-radius: 80px;
+}
+
+.what-youll-learn {
+  padding: 3rem;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 0rem 0;
+}
+
+.what-youll-learn h4 {
+  font-size: 1.8rem;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.learning-outcomes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.learning-outcome-card {
+  padding: 1.5rem;
+  background: #5a4bcd;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgba(90, 75, 205, 0); /* Initial state with no glow */
+}
+
+.learning-outcome-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(90, 75, 205, 0.6); /* Glow effect on hover */
+}
+
+.meet-the-instructor {
+  padding: 6rem;
+  text-align: center;
+}
+
+.meet-the-instructor h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+.instructor-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* Reduced gap for a tighter layout */
+  margin: 2rem 0;
+  padding: 2.5rem; /* Slightly increased padding for spacious design */
+  background: linear-gradient(135deg, #5a4bcd, #442c74);
+  border-radius: 16px; /* Slightly reduced border radius for a modern look */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Softer shadow for a more subtle effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 800px; /* Set a max-width to maintain consistency */
+  margin-left: auto; /* Center the card horizontally */
+  margin-right: auto;
+}
+
+.instructor-card:hover {
+  transform: translateY(-8px); /* Slightly reduced hover lift for subtlety */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); /* Adjusted shadow for hover effect */
+}
+
+.instructor-card img {
+  width: 140px; /* Reduced size for better proportions */
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffffff; /* Slightly thinner border for elegance */
+}
+
+.instructor-details {
+  text-align: left;
+}
+
+.instructor-details h4 {
+  font-size: 1.6rem; /* Reduced font size for better proportions */
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.instructor-details p {
+  font-size: 1.1rem; /* Reduced font size for readability */
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin-right: 0.8rem;
+  font-size: 1.6rem; /* Slightly reduced size */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #005eff; 
+  transform: scale(1.15); /* Slight hover scale */
+}
+
+.enrollnow-button {
+  padding: 0.8rem 2.5rem;
+  background: #ffffff;
+  border: 2px solid #5a4bcd;
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.enrollnow-button:hover {
+  transform: scale(1.05);
+  color: #5a4bcd;
+}

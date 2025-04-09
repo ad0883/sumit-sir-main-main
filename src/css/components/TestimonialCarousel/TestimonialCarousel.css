@@ -1,0 +1,221 @@
+.carousel-section {
+    background-color: #ffffff;
+    padding: 5rem 1rem 4rem;
+    text-align: center;
+}
+
+.carousel-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: #333;
+}
+
+.carousel-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: visible;
+    position: relative;
+}
+
+.carousel-stage {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3rem;
+    transition: transform 3s ease, opacity 3s ease; 
+}
+
+.card {
+    background-color: #5a4bcd;
+    border-radius: 1.5rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 3s ease, opacity 3s ease; 
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.6;
+    transform: perspective(1000px) rotateX(0deg) rotateY(20deg);
+}
+.card.center {
+    transform: scale(1.1);
+    z-index: 2;
+    opacity: 1;
+    filter: none;
+    box-shadow: 0 0 20px rgba(90, 75, 205, 0.6);
+    animation: pulse 2s infinite;
+    transition: transform 3s ease, opacity 3s ease; 
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+}
+.card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    transform: translateY(-10px);
+}
+
+@keyframes slideInCenter {
+    from {
+        transform: translateX(40px) scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0) scale(1.05);
+        opacity: 1;
+    }
+}
+
+.card.left,
+.card.right {
+    z-index: 1;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #f0f0f0;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.card .profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+    margin-top: auto;
+}
+
+.card .profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff33;
+}
+
+.card .profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .profile-info h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+.card .profile-info span {
+    font-size: 0.85rem;
+    color: #d1cfff;
+}
+
+/* Specific styles for the rightmost card */
+.card.right .profile {
+    text-align: left; /* Align the profile section to the left */
+    justify-content: flex-start; /* Override flex alignment to start from the left */
+    align-items: flex-start; /* Align items to the left */
+}
+
+.card.right .profile-info {
+    text-align: left; /* Ensure text alignment for name and title */
+}
+
+.card.right .profile img {
+    margin: 0; /* Ensure the avatar aligns properly with the text */
+}
+
+.carousel-controls {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.carousel-arrow {
+    background-color: #dcdcdc;
+    color: #000000;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: 0.6rem 0.9rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-arrow:hover {
+    background-color: #5a4bcd;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.carousel-dots {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.carousel-dot.active {
+    background: #5a4bcd;
+    border-color: #5a4bcd;
+}
+
+.animation-indicator {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #5a4bcd;
+    font-size: 0.85rem;
+    pointer-events: none;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .carousel-stage {
+        gap: 1.5rem;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .card {
+        flex: 0 0 auto;
+        scroll-snap-align: center;
+        width: 260px;
+    }
+
+    .carousel-controls {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

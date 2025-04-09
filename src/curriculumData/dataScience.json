@@ -1,0 +1,254 @@
+{
+    "course_name": "Data Science Mastery",
+    "modules": [
+        {
+            "module_name": "Introduction to Data Science",
+            "sub_modules": [
+                "Introduction to Data Science",
+                "Overview of Data Science Applications",
+                "Role of a Data Scientist"
+            ]
+        },
+        {
+            "module_name": "Python Basics",
+            "sub_modules": [
+                "Introduction to Python",
+                "Identifiers, Variables & Constants"
+            ]
+        },
+        {
+            "module_name": "Control Flow in Python",
+            "sub_modules": [
+                "Conditional Statements",
+                "Iterations & Loops",
+                "Nested Control & Patterns"
+            ]
+        },
+        {
+            "module_name": "Functions in Python",
+            "sub_modules": [
+                "Functions",
+                "Variable scopes",
+                "Stack trace",
+                "Python modules"
+            ]
+        },
+        {
+            "module_name": "Object Oriented Programming in Python",
+            "sub_modules": [
+                "Classes & Objects, Instances",
+                "Methods & States",
+                "Access control"
+            ]
+        },
+        {
+            "module_name": "Data Types in Python",
+            "sub_modules": [
+                "Strings, Lists & N-d Lists",
+                "Tuples, Dictionaries & Sets",
+                "Other Data Types"
+            ]
+        },
+        {
+            "module_name": "File Handling in Python",
+            "sub_modules": [
+                "File handling",
+                "Serialization & Deserialization"
+            ]
+        },
+        {
+            "module_name": "Array Computing with NumPy",
+            "sub_modules": [
+                "Why NumPy? What is parallel processing?",
+                "NumPy arrays, slicing & indexing",
+                "Mathematical operations",
+                "Matrix operations up to N-d matrix",
+                "Broadcasting in NumPy"
+            ]
+        },
+        {
+            "module_name": "Data Manipulation with Pandas",
+            "sub_modules": [
+                "Handling files using Pandas",
+                "DataFrames, Operations on DataFrames",
+                "Pandas Series",
+                "Data manipulation operations - aggregation, groupby, etc",
+                "Descriptive statistics using Pandas"
+            ]
+        },
+        {
+            "module_name": "Data Visualization",
+            "sub_modules": [
+                "Ways of presenting data",
+                "Types of visualizations & importance of visualizations",
+                "Using Plotly's express and graph object modules",
+                "Bar Chart, Area Chart, Adding customization",
+                "Visualizing statistical relationships - ScatterPlot, Pairplot"
+            ]
+        },
+        {
+            "module_name": "SQL Basics",
+            "sub_modules": [
+                "Introduction to SQL queries",
+                "Data manipulation queries - create, insert, update, etc",
+                "Filter or aggregate results",
+                "Update & Delete",
+                "Introduction to DBMS, RDBMS"
+            ]
+        },
+        {
+            "module_name": "Advanced SQL Queries",
+            "sub_modules": [
+                "Group BY, HAVING, ORDER BY, IN, BETWEEN, LIKE",
+                "JOINS",
+                "VIEWS & PROCEDURES",
+                "Indexing"
+            ]
+        },
+        {
+            "module_name": "SQLite Database Management",
+            "sub_modules": [
+                "SQLite usage",
+                "Connection with a database",
+                "Passing params in query",
+                "SQLite with Pandas"
+            ]
+        },
+        {
+            "module_name": "Introduction to Statistics",
+            "sub_modules": [
+                "Basics of Statistics",
+                "Introduction, Data types in Statistics",
+                "Population & Sample, Ways of Sampling"
+            ]
+        },
+        {
+            "module_name": "Descriptive Statistics",
+            "sub_modules": [
+                "Measures in descriptive stats",
+                "Measure of central tendency",
+                "Measure of spread, range & IQR, variance & STD",
+                "Measure of position"
+            ]
+        },
+        {
+            "module_name": "Inferential Statistics",
+            "sub_modules": [
+                "Introduction, Bell curve",
+                "Probability distributions",
+                "Different types of distributions",
+                "Sampling distribution & CLT"
+            ]
+        },
+        {
+            "module_name": "Hypothesis Testing",
+            "sub_modules": [
+                "What is Null & Alternate Hypothesis",
+                "Degree of significance, Test Statistic",
+                "Rejection Region, Type of Test",
+                "Errors in Hypothesis Testing"
+            ]
+        },
+        {
+            "module_name": "Machine Learning Basics",
+            "sub_modules": [
+                "Introduction to ML",
+                "Types of Machine Learning",
+                "Role of Data in ML"
+            ]
+        },
+        {
+            "module_name": "Linear Regression",
+            "sub_modules": [
+                "Introduction to LR - Model equation, cost function, intuition",
+                "Multivariable Regression & Gradient Descent",
+                "Logistic Regression"
+            ]
+        },
+        {
+            "module_name": "Decision Trees & Random Forests",
+            "sub_modules": [
+                "Decision Trees - Building, Feature Split on Categorical and Continuous Variables",
+                "Decision Trees - Information Gain, Gain Ratio, Gini Index, Overfitting & Pruning",
+                "Random Forests - Introduction, Bagging, Feature Selection"
+            ]
+        },
+        {
+            "module_name": "Naive Bayes Algorithm",
+            "sub_modules": [
+                "Bayes Theorem, Assumptions",
+                "Probability estimates, handling zero probabilities",
+                "Text Classification using Naive Bayes"
+            ]
+        },
+        {
+            "module_name": "KNN & SVM Algorithms",
+            "sub_modules": [
+                "Introduction to KNN, Feature Scaling, Cross Validation",
+                "Optimal K value, Handling Categorical Data, Pros & cons",
+                "Intuition behind SVM, SVM Cost function, Non-linear Decision Boundaries"
+            ]
+        },
+        {
+            "module_name": "Principal Component Analysis",
+            "sub_modules": [
+                "Intuition behind PCA, PCA application",
+                "Maths Behind PCA, Find optimal number of features",
+                "Apply PCA on images, Reproducing images",
+                "Eigenfaces"
+            ]
+        },
+        {
+            "module_name": "Natural Language Processing",
+            "sub_modules": [
+                "Language Processing, cleaning & building feature set",
+                "Vectorize text & create classifiers",
+                "N-gram, BoW, TF-IDF"
+            ]
+        },
+        {
+            "module_name": "Deep Learning Basics",
+            "sub_modules": [
+                "Introduction to Deep Learning",
+                "Comparison with traditional ML"
+            ]
+        },
+        {
+            "module_name": "Neural Networks",
+            "sub_modules": [
+                "Biological motivation for Neuron",
+                "Perceptron Model & MLP",
+                "Decision Boundary",
+                "Cost function, forward & backpropagation",
+                "Error Function, SGD, Implementing a NN"
+            ]
+        },
+        {
+            "module_name": "TensorFlow & Keras",
+            "sub_modules": [
+                "Introduction to TF, constants, session, variables, placeholders",
+                "Introduction to Keras, Layers, Models, etc",
+                "MNIST Data, Initializing model parameters",
+                "Forward & Backward pass, Batch Gradient Descent"
+            ]
+        },
+        {
+            "module_name": "Convolutional Neural Networks",
+            "sub_modules": [
+                "Working of Human Eye",
+                "Problem with handling visual data",
+                "Components of CNN - Kernel, Convolution, Stride, Padding",
+                "Layers in CNN - MaxPool, Convolution, Dropout",
+                "Building CNN using Keras"
+            ]
+        },
+        {
+            "module_name": "Deep Learning Projects",
+            "sub_modules": [
+                "Make a facial recognition system",
+                "Create sentiment analysis project for social media",
+                "Driver assistance system"
+            ]
+        }
+    ]
+}

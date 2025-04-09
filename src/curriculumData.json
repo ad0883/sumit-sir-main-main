@@ -1,0 +1,213 @@
+{
+    "course_name": "Competitive Programming",
+    "modules": [
+        {
+          "module_name": "Introduction & Prerequisites",
+          "sub_modules": [
+            "Conditional statements",
+            "Loops",
+            "Functions",
+            "basic mathematical problems",
+            "arrays, 2D arrays, strings",
+            "recursion introduction",
+            "What kind of problems are solved using algorithms?",
+            "Algorithms as a tech – efficiency",
+            "why competitive programming",
+            "how to approach a problem",
+            "basic computer architecture",
+            "Frequent Errors that we get"
+          ]
+        },
+        {
+          "module_name": "Complexity analysis - Time and Space",
+          "sub_modules": [
+            "Need of analysis",
+            "Annotations",
+            "Master’s theorem",
+            "finding complexity by recursion tree",
+            "other methods to find complexity",
+            "linear search",
+            "binary search",
+            "merge sort",
+            "selection sort",
+            "insertion sort",
+            "Kadane’s algorithm",
+            "Fibonacci sequence using recursion and loops",
+            "How we trade space with time and vice versa"
+          ]
+        },
+        {
+          "module_name": "Recursion",
+          "sub_modules": [
+            "How complexity changes in recursive approach",
+            "code readability",
+            "recursion tree",
+            "reading stack trace",
+            "limitations",
+            "Some famous questions on recursion",
+            "Keypad problem",
+            "Merge and Quicksort, etc"
+          ]
+        },
+        {
+          "module_name": "Searching and Sorting with applications",
+          "sub_modules": [
+            "All searching and sorting algorithms in their best form",
+            "Inplace",
+            "Stable",
+            "modify an algorithm",
+            "Composite Algorithms"
+          ]
+        },
+        {
+          "module_name": "Backtracking",
+          "sub_modules": [
+            "When to use",
+            "difference and similarity in brute force and Backtracking algorithms",
+            "Time and Space complexity analysis",
+            "N-Queen - Approach, Code, variations",
+            "M Coloring problem",
+            "Rat in a Maze",
+            "Subset sum",
+            "Sudoku",
+            "Remove invalid parenthesis etc."
+          ]
+        },
+        {
+          "module_name": "Greedy Approach",
+          "sub_modules": [
+            "Difference between approach and Algorithm",
+            "Optimization parameters",
+            "Analysis of Time and Space Complexity",
+            "Activity Selection problem",
+            "Huffman Coding",
+            "Job sequencing with deadlines",
+            "Knapsack 01",
+            "Minimizing or Maximizing the Product or Sum of a subset, pair, triplet or a subarray, Lexicographical optimizations.",
+            "Memory Management",
+            "Job Scheduling",
+            "Priority tasks"
+          ]
+        },
+        {
+          "module_name": "Bit masking & Modulo Arithmetic",
+          "sub_modules": [
+            "Shift Operators",
+            "All bitwise Operators- AND, OR, NOT",
+            "Modulo"
+          ]
+        },
+        {
+          "module_name": "Exploratory Data Analysis",
+          "sub_modules": [
+            "Univariate analysis",
+            "Bivariate Analysis",
+            "End to end analysis of a case study",
+            "Python Implementation on various datasets"
+          ]
+        },
+        {
+          "module_name": "Adhoc Problems",
+          "sub_modules": [
+            "Introduction- Approach",
+            "Live Problems"
+          ]
+        },
+        {
+          "module_name": "Dynamic Programming",
+          "sub_modules": [
+            "Basics- Need of DP",
+            "States",
+            "Tree",
+            "Recursive formula",
+            "DAG for DP",
+            "Mnemonization",
+            "Tabulation",
+            "Optimal substructure",
+            "Overlapping subproblems",
+            "Fibonacci problem",
+            "Tiling problem",
+            "Gold Mine Problem",
+            "Subset sum",
+            "Subproblem",
+            "Coin Change Problem",
+            "LCS, LIS, LRS",
+            "01 Knapsack DP",
+            "LBS Count",
+            "Palindromic Sequences"
+          ]
+        },
+        {
+          "module_name": "Graphs",
+          "sub_modules": [
+            "Intro",
+            "Terminologies",
+            "Implementation using Adjacency Matrix or List",
+            "BFS",
+            "DFS",
+            "has path",
+            "is connected",
+            "get path",
+            "Directed Weighted Graph",
+            "Detect Cycle in Directed",
+            "Undirected graph",
+            "Negative Cycle in Graph",
+            "Disjoint Set",
+            "Union Find Algorithm",
+            "Topological sorting",
+            "Longest paths",
+            "DAG",
+            "Prim’s algorithm",
+            "applications of MST",
+            "Kruskal’s algorithm",
+            "Knight tour problem",
+            "Rat in Maze",
+            "Dijkstra’s Algorithm",
+            "Bellman-Ford algorithm",
+            "Floyd Warshall",
+            "Problems in connectivity",
+            "Ford-Fulkerson Algorithm",
+            "Bipartite graph and matching"
+          ]
+        },
+        {
+          "module_name": "Segment tree",
+          "sub_modules": [
+            "Introduction",
+            "Build",
+            "Update",
+            "Query",
+            "Check Size"
+          ]
+        },
+        {
+          "module_name": "Fenwick Tree",
+          "sub_modules": [
+            "Implementation and code"
+          ]
+        },
+        {
+          "module_name": "Tries",
+          "sub_modules": [
+            "Introductory Problems",
+            "Tries and XOR"
+          ]
+        },
+        {
+          "module_name": "Number Theory",
+          "sub_modules": [
+            "GCD",
+            "LCM",
+            "Primes",
+            "Modular arithmetic"
+          ]
+        },
+        {
+          "module_name": "Game Theory",
+          "sub_modules": [
+            "Combinatorial Game theory",
+            "MinMax Algorithms"
+          ]
+        }
+      ]
+}
