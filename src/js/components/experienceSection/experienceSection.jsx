@@ -10,31 +10,23 @@ const ExperienceSection = () => {
     });
 
     const containerVariants = {
-        hidden: {
-            opacity: 0,
-            y: 30,
-        },
+        hidden: { opacity: 0, y: 30 },
         visible: {
             opacity: 1,
             y: 0,
             transition: {
-                delayChildren: 0.7, // Delay before children animations start
+                delayChildren: 0.5,
                 staggerChildren: 0.2,
             },
         },
     };
 
     const itemVariants = {
-        hidden: {
-            opacity: 0,
-            y: 30,
-        },
+        hidden: { opacity: 0, y: 30 },
         visible: {
             opacity: 1,
             y: 0,
-            transition: {
-                duration: 0.5,
-            },
+            transition: { duration: 0.5 },
         },
     };
 
@@ -46,10 +38,7 @@ const ExperienceSection = () => {
                 initial="hidden"
                 animate={inView ? 'visible' : 'hidden'}
             >
-                <motion.div
-                    className="experience-item-custom"
-                    variants={itemVariants}
-                >
+                <motion.div className="experience-item-custom" variants={itemVariants}>
                     <h2 className="experience-title">
                         An experience that keeps <span className="highlight">learners</span> at <span className="highlight">the center</span>
                     </h2>

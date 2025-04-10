@@ -50,3 +50,8 @@
 .experience-description {
     color: #6c757d;
 }
+@media (max-width: 768px) {
+    .experience-title {
+        text-align: left;
+    }
+}

@@ -31,6 +31,7 @@ const testimonials = [
 const TestimonialCarousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isPaused, setIsPaused] = useState(false);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     const totalCards = testimonials.length;
 
@@ -46,11 +47,23 @@ const TestimonialCarousel = () => {
         setCurrentIndex(index);
     };
 
+    // Auto-slide effect (only on mobile and not paused)
     useEffect(() => {
-        if (isPaused) return;
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
+    useEffect(() => {
+        if (!isMobile || isPaused) return;
+
         const interval = setInterval(goToNext, 3000);
         return () => clearInterval(interval);
-    }, [isPaused, goToNext]);
+    }, [isMobile, isPaused, goToNext]);
 
     return (
         <section className="carousel-section" aria-label="Testimonials">

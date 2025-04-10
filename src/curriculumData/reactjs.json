@@ -48,7 +48,7 @@
         {
             "module_name": "React.js - Component Development",
             "sub_modules": [
-                "Introduction to React.js",
+                "React.js",
                 "Components and Props",
                 "State and Lifecycle",
                 "React Hooks",

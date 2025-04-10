@@ -237,11 +237,11 @@ export const courseData = [
       },
       {
         courseImage: reactjsIcon,
-        title: "Introduction to React Js",
+        title: "React Js",
         mentors: "Mentor : Mandeep Attri",
         slug: 'reactjs',
         courseDetail: {
-          title: "Introduction to React Js",
+          title: "React js",
           descriptionTop: "This course teaches you how to build dynamic web applications with React, covering essential concepts. Learn to create modern, interactive user interfaces efficiently.",
           priceInfo: {
             current: "₹4999+taxes",
@@ -347,7 +347,7 @@ export const courseData = [
       },
       {
         courseImage: mernIcon,
-        title: "Mern Stack",
+        title: "M.E.R.N Stack Development",
         mentors: "Mentor : Mandeep Attri",
         starRating: "⭐⭐⭐⭐⭐ 5.0",
         isAvailable: true,

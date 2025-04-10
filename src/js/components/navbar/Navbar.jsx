@@ -16,21 +16,16 @@ const Navbar = () => {
 
   const isMobile = width <= 1000;
 
-  const updateDimensions = () => {
-    setWidth(window.innerWidth);
-  };
-
   useEffect(() => {
+    const updateDimensions = () => setWidth(window.innerWidth);
     window.addEventListener("resize", updateDimensions);
     return () => window.removeEventListener("resize", updateDimensions);
   }, []);
 
-  const toggleMenu = () => {
-    setMobileNav(!mobileNav);
-  };
+  const toggleMenu = () => setMobileNav(!mobileNav);
 
   return (
-    <div className='navbar-container'>
+    <div className="navbar-container">
       <div className="nav-content">
         {/* Logo */}
         <div className="nav-logo">
@@ -38,32 +33,36 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="nav-links">
-          <ul>
-            {navData.map((item) => (
-              <li key={item.id}>
-                <a href={item.link}>{item.name}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {!isMobile && (
+          <>
+            <div className="nav-links">
+              <ul>
+                {navData.map((item) => (
+                  <li key={item.id}>
+                    <a href={item.link}>{item.name}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-        {/* Login and Join Us */}
-        <div className="nav-actions">
-          {/*<a href="/login" className="login-link">Login</a>*/}
-          <a href="/join-us" className="join-us-button">JOIN US</a>
-        </div>
+            <div className="nav-actions">
+              <a href="/join-us" className="join-us-button">JOIN US</a>
+            </div>
+          </>
+        )}
 
         {/* Mobile Menu Button */}
-        <div className="nav-menu-btn">
-          {isMobile && <span onClick={toggleMenu}><RiMenu2Line /></span>}
-        </div>
+        {isMobile && (
+          <div className="nav-menu-btn" onClick={toggleMenu}>
+            <RiMenu2Line />
+          </div>
+        )}
       </div>
 
       {/* Mobile Navigation */}
       <div className={`mobile-nav ${mobileNav ? 'active' : ''}`}>
         <div className="mobile-nav-header">
-          <a href="/#" onClick={toggleMenu}><img src={logo_file} alt="Logo" /></a>
+          <img src={logo_file} alt="Logo" />
           <span className="close-btn" onClick={toggleMenu}><MdClose /></span>
         </div>
         <ul>
@@ -72,12 +71,8 @@ const Navbar = () => {
               <a href={item.link} onClick={toggleMenu}>{item.name}</a>
             </li>
           ))}
-          <li>
-            <a href="/login" onClick={toggleMenu}>Login</a>
-          </li>
-          <li>
-            <a href="/join-us" className="join-us-button-mobile" onClick={toggleMenu}>JOIN US</a>
-          </li>
+          <li><a href="/login" onClick={toggleMenu}>Login</a></li>
+          <li><a href="/join-us" className="join-us-button-mobile" onClick={toggleMenu}>JOIN US</a></li>
         </ul>
       </div>
     </div>

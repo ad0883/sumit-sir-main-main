@@ -191,3 +191,85 @@
   transform: scale(1.05);
   color: #5a4bcd;
 }
+@media (max-width: 768px) {
+  .course-header {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 6rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+    border-radius: 40px;
+    text-align: center;
+    padding-bottom: -11rem;
+  }
+
+  .course-header-left {
+    max-width: 100%;
+    margin-bottom: 0.1rem;
+  }
+
+  .course-header-left h2,
+  .course-header-left .mentor,
+  .course-header-left .description,
+  .course-header-left .price-section,
+  .course-header-left .current-price {
+    margin-left: 0;
+  }
+
+  .course-header-right img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 40px;
+  }
+
+  .what-youll-learn {
+    padding: 2rem 1rem;
+  }
+
+  .learning-outcomes {
+    grid-template-columns: 1fr;
+  }
+
+  .learning-outcome-card {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .meet-the-instructor {
+    padding: 3rem 1rem;
+  }
+
+  .instructor-card {
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .instructor-card img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .instructor-details {
+    text-align: center;
+  }
+
+  .instructor-details h4 {
+    font-size: 1.4rem;
+  }
+
+  .instructor-details p {
+    font-size: 1rem;
+  }
+
+  .social-icons a {
+    font-size: 1.4rem;
+  }
+
+  .enrollnow-button {
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    padding: 0.7rem 2rem;
+    font-size: 0.95rem;
+  }
+}

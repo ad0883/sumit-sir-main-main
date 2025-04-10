@@ -3,7 +3,7 @@
   background-color: #282844;
   width: 100%;
   padding: 80px 0;
-  overflow: hidden; /* Added to prevent horizontal scroll from animations */
+  overflow: hidden; /* Prevent horizontal scroll */
 }
 
 .explore-courses-container {
@@ -14,7 +14,7 @@
 }
 
 .explore-courses-container .top .first h1 {
-  font-size: 42px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 1.2;
   color: #f8f6f6;
@@ -44,7 +44,7 @@
 
 .course-container h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ffffff;
   font-weight: 600;
 }
@@ -105,7 +105,7 @@
 }
 
 .course-heading .course-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   color: beige;
 }
@@ -142,12 +142,12 @@
 [data-aos] {
   opacity: 0;
   transition-property: transform, opacity;
-  pointer-events: none; /* Prevent interaction during animation */
+  pointer-events: none; /* Disable interaction while animating */
 }
 
 [data-aos].aos-animate {
   opacity: 1;
-  pointer-events: auto; /* Re-enable interaction after animation */
+  pointer-events: auto;
 }
 
 /* Custom Animation Classes */
@@ -180,8 +180,12 @@
   }
 
   .explore-courses-container .first h1 {
-    font-size: 2.4rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* optional, adds "..." if text overflows */
   }
+  
 
   .explore-courses-container .bottom {
     gap: 2rem;
@@ -194,13 +198,23 @@
 }
 
 @media screen and (max-width: 600px) {
-  .explore-path-outer-container {
-    padding: 40px 0;
+  .course-internal-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    overflow-x: visible;
+    scroll-snap-type: none;
+    padding: 0;
+    align-items: stretch;
   }
 
   .explore-courses-container .first h1 {
-    font-size: 2rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* optional, adds "..." if text overflows */
   }
+  
 
   .explore-courses-container .first p {
     font-size: 1rem;
@@ -211,8 +225,11 @@
   }
 
   .course {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    max-width: 300px;
+    height: 100%;
   }
 
   .course-top {
@@ -231,6 +248,12 @@
     padding: 8px 30px;
     font-size: 0.9rem;
   }
+
+  /* Center last card if it's alone in the last row */
+  .course-internal-container > .course:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
 }
 
 /* Animation Performance Optimizations */
@@ -241,11 +264,11 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-  
+
   .course:hover {
     transform: none;
   }
-  
+
   [data-aos] {
     transition: none !important;
     animation: none !important;
@@ -272,7 +295,7 @@
   .course {
     border: 2px solid CanvasText;
   }
-  
+
   .course-explore-btn {
     border: 1px solid CanvasText;
   }
@@ -298,19 +321,25 @@
 
 /* Print Styles */
 @media print {
-  .explore-path-outer-container {
-    background: none;
-    padding: 20px 0;
+  .explore-path-outer-container,
+  .course,
+  .course-explore-btn {
+    background: none !important;
+    box-shadow: none !important;
+    color: black !important;
+    border: 1px solid #000 !important;
   }
 
-  .course {
-    break-inside: avoid;
-    page-break-inside: avoid;
-    box-shadow: none;
-    border: 1px solid #000;
+  .course-icon {
+    display: none;
   }
 
   .course-explore-btn {
     display: none;
+  }
+
+  .course-top,
+  .course-info {
+    padding: 10px;
   }
 }
