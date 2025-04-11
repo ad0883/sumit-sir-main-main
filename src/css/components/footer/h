@@ -1,0 +1,9 @@
+.social-icon-link i,
+.social-icon-link svg {
+  color: white;
+  fill: white;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 17px;
+  vertical-align: middle;
+}
