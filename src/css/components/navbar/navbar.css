@@ -104,7 +104,7 @@
 
 .close-btn {
   font-size: 2rem;
-  color: #333;
+  color: #141212;
   cursor: pointer;
 }
 
@@ -130,14 +130,24 @@
 
 /* Mobile Join Us Button */
 .join-us-button-mobile {
-  background-color: #5a4bcd;
-  color: white;
+  background-color: #ffffff;
+  text-emphasis-color: white;
   padding: 0.5rem 1rem;
-  border-radius: 6px;
+  border-radius: 16px;
   text-decoration: none;
   font-weight: 600;
   transition: background 0.3s ease;
+  border: #5a4bcd 2px solid;
 }
+
+/* Hover effect for the button */
+.join-us-button-mobile:hover {
+  background-color: #4a3bb0; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
 
 .join-us-button-mobile:hover {
   background-color: #4a3bcd;
